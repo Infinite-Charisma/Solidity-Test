@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Simple Solidity Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is the project which mint and buy NFTs just for test.
 
-Try running some of the following tasks:
+###How to test project
 
+Install all depecdancies
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn
+```
+
+Compile solidity smart contract
+```shell
+yarn hardhat compile
+```
+
+Test basic functionality by running this
+```shell
+yarn hardhat test 
+```
+
+To see whether smart contract works as it is designed to or not, run this command
+```shell
+yarn hardhat run src/play_test.ts 
 ```
