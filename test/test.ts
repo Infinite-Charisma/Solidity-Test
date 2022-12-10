@@ -1,8 +1,7 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
 import { Signer, BigNumber } from "ethers";
-import { TestToken, TestToken__factory } from "../typechain-types";
-import { getAddress } from "ethers/lib/utils";
+import { TestToken } from "../typechain-types";
 
 const web3 = require("web3");
 
